@@ -65,4 +65,18 @@ For a more in-depth understanding of types and subtlties, refer to
 
 <br/>
 
-## Frameworks & TypeScript
+## Frameworks & TypeScript  
+
+Popular front-end web frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript  
+The use of TypeScript is even encouraged  
+<br/>
+
+| Framework  | Documentation |
+| --- | --- |
+| ReactJS | <img src="./images/reactjs-typescript.png" width="90%">  |
+| AngularJS | <img src="./images/angular-typescript.png" width="90%"> |
+| VueJS | <img src="./images/vuejs-typescript.png" width="90%">   |
+
+On the back-end, TypeScript can be easily setup and configured in a few simple steps, as can be referenced here https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
+
+
