@@ -47,7 +47,7 @@ graduated = [2007, 2008];                         // this will have error
 
 ### Any type
 There are times where the application deals with data where the type is not available prior *eg dynamic input from the user*  
-The *any* type declaration will allow typechecking to be bypassed  
+The **any** type declaration will allow typechecking to be bypassed  
 
 ```ruby
 function getRecord(id: number): any;    // here we allow the return type of the function to be of any type 
@@ -67,7 +67,7 @@ For a more in-depth understanding of types and subtlties, refer to
 
 ## Frameworks & TypeScript  
 
-Popular front-end web frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript  
+Popular **front-end** web frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript  
 The use of TypeScript is even encouraged  
 <br/>
 
@@ -76,7 +76,9 @@ The use of TypeScript is even encouraged
 | ReactJS | <img src="./images/reactjs-typescript.png" width="90%">  |
 | AngularJS | <img src="./images/angular-typescript.png" width="90%"> |
 | VueJS | <img src="./images/vuejs-typescript.png" width="90%">   |
+<br/>
 
-On the back-end, TypeScript can be easily setup and configured in a few simple steps, as can be referenced here https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
-
-
+On the **back-end**, TypeScript can be easily setup and configured in a few simple steps, as can be referenced here https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript  
+<p align="center">
+  <img src="./images/ts-backend-digitalocean.PNG" width="60%">  
+</p>
