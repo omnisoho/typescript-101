@@ -1,4 +1,4 @@
-# What is TypeScript :monocle_face:?
+# What is TypeScript :nerd_face:?
 TypeScript is
 * an object-oriented programming language developed and maintained by Microsoft
 * a superset of JavaScript and contains all of its elements
