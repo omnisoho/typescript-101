@@ -71,6 +71,7 @@ Popular **front-end** web frameworks such as *ReactJS*, *AngularJS* & *VueJS* ca
 The use of TypeScript is even encouraged  
 <br/>
 
+
 | Framework  | Documentation |
 | --- | --- |
 | ReactJS | <img src="./images/reactjs-typescript.png" width="90%">  |
