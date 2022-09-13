@@ -79,7 +79,11 @@ The use of TypeScript is even encouraged
 | VueJS | <img src="./images/vuejs-typescript.png" width="90%">   |  
   
 <br/>
+
 On the **back-end**, TypeScript can be easily setup and configured in a few simple steps, as can be referenced here https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript  
+It can be used together with minimal back-end frameworks like *Express* & *Koa*, or opinionated frameworks like *NestJS* & *loopback*
 <p align="center">
   <img src="./images/ts-backend-digitalocean.png" width="60%">  
 </p>
+
+ 
