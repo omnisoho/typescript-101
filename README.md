@@ -1,5 +1,6 @@
 # What is TypeScript ? :nerd_face:
-#### TypeScript is
+#### TypeScript is  
+
 <img src="./images/ts-superset-js.png" width="30%">  
 
 * an object-oriented programming language developed and maintained by Microsoft
