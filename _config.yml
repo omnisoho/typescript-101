@@ -1,6 +1,6 @@
 title: TypeScript 101
 description: TypeScript in a nutshell
-remote_theme: pages-themes/cayman@v0.2.0
+theme: jekyll-theme-cayman
 plugins:
 - jemoji
 
