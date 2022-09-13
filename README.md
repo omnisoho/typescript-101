@@ -12,9 +12,9 @@
 <br/>
 
 # Why use TypeScript ? :thinking:
-* Static typing makes large scale applications more robust and less prone to bugs
-* OOP concepts such as Classes, Interfaces, Inheritance etc are supported
-* Many frameworks support TypeScript so it is easy to adopt it for your development
+* **Static typing** makes large scale applications more robust and less prone to bugs
+* **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported
+* Many **frameworks** support TypeScript so it is easy to adopt it for your development
 
 <br/>
 
