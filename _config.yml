@@ -1,5 +1,7 @@
 title: TypeScript 101
 description: TypeScript in a nutshell
 remote_theme:  pages-themes/midnight@v0.2.0
+github:
+  is_project_page: false
 plugins:
 - jemoji
