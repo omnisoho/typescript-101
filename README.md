@@ -70,7 +70,7 @@ Custom types can be defined to meet your own needs via OOP features like interfa
 The variables of these types are also type checked  
 
 ### Interface
-```typescript
+```javascript
 interface Teacher {
     name: string;
     isFulltime: boolean;
@@ -83,7 +83,7 @@ The *?* makes the email property optional so the teacher variable can be assigne
 
 ### Class
 
-```typescript
+```javascript
 class Student {
     public fullname: string;                                // A public property
     private householdIncome: number;                        // A private property
