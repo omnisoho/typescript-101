@@ -47,7 +47,7 @@ In the *State of frontend 2022* survey, there is strong opinion expressed in the
 
 *Source: [State of JavaScript 2021](https://2021.stateofjs.com/en-US/other-tools)*  
 <img src="./images/ts-state-of-javascript-flavours.png">  
-Compared to other languages that compile to JavaScript, TypeScript is polled as the **clear choice**.
+In the *State of JavaScript 2021* survey, compared to other languages that compile to JavaScript, TypeScript is polled as the **clear choice**.
 
 <br/>
 
