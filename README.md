@@ -28,35 +28,25 @@
 
 <br/>
 
-<img src="./images/ts-2021-developer-survey-loved-dreaded.png" width="80%">      
+*Source: [2021 Developer Survey](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-language-love-dread)*  
+<img src="./images/ts-2021-developer-survey-loved-dreaded.png">  
+In the "Loved vs Dreaded" poll, TypeScript did not only rank significantly above JavaScript, it also ranked near the top among programming languages.  
 
-*Source: 2021 Developer Survey*
+<br/>
 
-In the loved versus dreaded poll, TypeScript did not only rank significantly above JavaScript, it also ranked near the top among programming languages.
-
-<p align="center">
-    <img src="./images/ts-state-of-frontend-typescript.png" width="40%">
-    <img src="./images/ts-state-of-frontend-company-type.png" width="40%">
-    <img src="./images/ts-state-of-frontend-typescript-future.png" width="80%">
-</p>  
-
-<p align="center">
-
+*Source: [State of frontend 2022](https://tsh.io/state-of-frontend/)*  
 |   | 
 | --- |
-| <img src="./images/ts-state-of-frontend-typescript.png" width="80%">  |
-| <img src="./images/ts-state-of-frontend-company-type.png" width="80%"> |
-| <img src="./images/ts-state-of-frontend-typescript-future.png" width="80%">   |  
+| <img src="./images/ts-state-of-frontend-typescript.png">  |
+| <img src="./images/ts-state-of-frontend-typescript-future.png">   |  
 
-</p>  
+In the *State of frontend 2022* survey, there is strong opinion expressed in the continued and rising popularity of TypeScript  
 
-*Source: State of frontend 2022*
+<br/>
 
-<p align="center">
-    <img src="./images/ts-state-of-javascript-flavours.png" width="80%">
-</p> 
-
-*Source: State of JavaScript 2021*
+*Source: [State of JavaScript 2021](https://2021.stateofjs.com/en-US/other-tools)*  
+<img src="./images/ts-state-of-javascript-flavours.png">  
+Compared to other languages that compile to JavaScript, TypeScript is polled as the clear choice.
 
 <br/>
 
