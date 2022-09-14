@@ -1,6 +1,7 @@
 title: TypeScript 101
 description: TypeScript in a nutshell
-remote_theme: lewismiddleton/cayman-dark
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
+- jekyll-include-cache
 - jemoji
 
