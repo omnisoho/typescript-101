@@ -1,10 +1,10 @@
 
-# What is TypeScript ? :monocle_face:  
+# What is TypeScript ?  
 
 #### TypeScript is  
 
 <p align="center">
-    <img src="./images/ts-superset-js.png" width="60%">  
+    <img src="./images/ts-superset-js.png" width="40%">  
 </p>
 
 * an object-oriented programming language developed and maintained by Microsoft
@@ -18,7 +18,7 @@
 
 <br/>
 
-# Why consider TypeScript ? :thinking:
+# Why consider TypeScript ?  
 
 * **Static typing** makes large scale applications more robust and less prone to bugs
 * **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported
@@ -28,7 +28,7 @@
 
 ## Static Typing
 
-TypeScript restricts the mixing of data types. Errors would be thrown if the restrictions are violated.
+TypeScript restricts the mixing of data types. Errors would be thrown if the restrictions are violated.  
 
 ### Basic types
 
@@ -45,7 +45,7 @@ salary = "one million";   // number type assigned to string will have error
 name = 888;               // string type assigned to number will have error  
 
 ```
-
+  
 ### Array & Tuple
 Likewise, *array* & *tuple* can be type checked
 
@@ -57,7 +57,7 @@ let graduated:[string, number];                   // tuple allows elements of di
 graduated = ["sep", 2008];                        // ok
 graduated = [2007, 2008];                         // this will have error
 ```
-
+  
 ### Any type
 There are times where the application deals with data where the type is not available beforehand or only available during runtime  
 The **any** type declaration will allow typechecking to be bypassed  
@@ -69,18 +69,18 @@ let record2 = getStudentRecord(1001);          // this invocation will have erro
 ```
 From the declaration it is clear to see that the function expects a parameter id of type *string* and will return a value of type *any*  
 While this allows opt-out checking grants convenience, type-safety is not enforced.
-
+  
 ### Other types
 There are other types such as void, undefined, unknown, null, never  
 For a more in-depth understanding of types and subtlties, refer to
 ??????????????????????????????????????????????
 
 <br/>
-
+  
 ## OOP Features
 Custom types can be defined to meet your own needs via OOP features like interfaces and classes  
 The variables of these types are also type checked  
-
+  
 ### Interface
 ```javascript
 interface Teacher {
@@ -92,9 +92,9 @@ let teacher: Teacher;
 teacher = {name:'Amy', isFullTime: true};   // this is ok even without email
 ```
 The *?* makes the email property optional so the teacher variable can be assigned either with or without it
-
+  
 ### Class
-
+  
 ```typescript
 
 class Student {
@@ -122,7 +122,7 @@ Variables can be instantiated via the constructor with the **new** keyword
 Class properties can be declared with access modifiers to control accessbility  
 
 <br/>
-
+  
 ## Frameworks & TypeScript  
 
 Popular **front-end** web frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript  
@@ -143,7 +143,7 @@ It can be used together with minimal back-end frameworks like *Express* & *Koa*,
 <p align="center">
   <img src="./images/ts-backend-digitalocean.png" width="60%">  
 </p>
-
+  
  ###References  
  https://angular.io/guide/typescript-configuration  
  https://vuejs.org/guide/typescript/overview.html  
