@@ -24,9 +24,9 @@
 * **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported.
 * Many **frameworks** support TypeScript so it is easy to adopt it for your development.
 
-### Some Figures
-
 <br/>
+
+### Some Figures
 
 *Source: [2021 Developer Survey](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-language-love-dread)*  
 <img src="./images/ts-2021-developer-survey-loved-dreaded.png">  
