@@ -1,5 +1,5 @@
 
-# What is TypeScript ? :nerd_face:
+# What is TypeScript ? :nerd_face:  
 
 #### TypeScript is  
 
