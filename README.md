@@ -88,8 +88,8 @@ let admissionId: string | number;       // union: expect this variable to be of 
 <br/>
 
 ### Other types
-There are other types such as void, undefined, unknown, null, never  
-An in-depth documentation of the types can be referenced at [offical website] (https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+Besides the above commonly used types, there are other pre-defined types such as void, undefined, unknown, null, never  
+An in-depth documentation of the types can be referenced at the [offical website](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
 <br/>
   
@@ -107,10 +107,12 @@ interface Teacher {
 let teacher: Teacher;
 teacher = {name:'Amy', isFullTime: true};   // this is ok even without email
 ```
-The * ? * makes the email property optional so the teacher variable can be assigned either with or without it.
-  
+The **?** makes the email property optional so the teacher variable can be assigned either with or without it.
+
+<br/>
+
 ### Class
-  
+
 ```typescript
 
 class Student {
@@ -141,7 +143,79 @@ Class properties can be declared with access modifiers to control accessbility.
   
 ## Frameworks & TypeScript  
 
-Popular **front-end** web frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript.  
+### Basic Setup
+
+<br/>
+
+TypeScript can be easily setup and configured in a few simple steps.
+
+```linux
+npm install --save-dev typescript
+```
+In a nodeJS project, install the typescript npm module as a dev dependency.
+
+<br/>
+
+```linux
+npx tsc --init
+```
+This creates a config file tsconfig.json that is initialized with some default options.  
+
+<br/>
+
+```json
+{
+  "compilerOptions": {
+    "target": "es5",                          
+    "module": "commonjs",                    
+    "lib": ["es6"],                     
+    "allowJs": true,
+    "outDir": "build",                          
+    "rootDir": "src",
+    "strict": true,         
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}
+```
+This is an example of the config file.  
+This file defines the compiler options to transpile typescript to javascript.  
+The full list of options configurable can be referenced at the [typescript website] (https://www.staging-typescript.org/tsconfig)  
+
+<br/>
+
+### With Frameworks
+
+```typescript
+import express from 'express';
+const app = express();
+const port = 5000;
+
+app.get("/", (req, res) => {
+  res.send("First TypeScript Project");
+});
+
+app.listen(port, () => {
+  return console.log(`Server listening at http://localhost:${port}`);
+});
+```
+This could be .ts file to run a simple server.  
+
+<br/>
+
+```linux
+npx tsc
+```
+Finally typescript has to be compiled to javascript. Then the server can be started.  
+More information about the setup can be referenced [here.](https://www.typescriptlang.org/download)  
+A more robust setup can be referenced [here.](https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript)  
+
+As seen above, typescript can be used together with minimal back-end frameworks like *Express* & *Koa*, or opinionated frameworks like *NestJS* & *loopback*.  
+
+<br/>
+
+Popular **front-end** frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript.  
 The use of TypeScript is also recommended.  
 <br/>
 
@@ -154,16 +228,12 @@ The use of TypeScript is also recommended.
   
 <br/>
 
-On the **back-end**, TypeScript can be easily setup and configured in a few simple steps, as can be referenced here https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript  
-It can be used together with minimal back-end frameworks like *Express* & *Koa*, or opinionated frameworks like *NestJS* & *loopback*.  
 
-<p align="center">
-  <img src="./images/ts-backend-digitalocean.png" width="60%">  
-</p>
-  
+<!--
  ###References  
  https://angular.io/guide/typescript-configuration  
  https://vuejs.org/guide/typescript/overview.html  
  https://reactjs.org/docs/static-type-checking.html  
  https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript  
+-->
  
