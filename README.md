@@ -13,7 +13,7 @@
 * easily compiled to plain javascript via a TypeScript compiler  
 
 <p align="center">
-    <img src="./images/ts-compile-to-js.png width="80%"">  
+    <img src="./images/ts-compile-to-js.png" width="80%">  
 </p>  
 
 <br/>
