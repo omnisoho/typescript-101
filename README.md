@@ -24,6 +24,10 @@
 * **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported.
 * Many **frameworks** support TypeScript so it is easy to adopt it for your development.
 
+### Some Numbers
+
+*Source 2021 Developer Survey*
+
 <br/>
 
 ## Static Typing
@@ -235,5 +239,9 @@ The use of TypeScript is also recommended.
  https://vuejs.org/guide/typescript/overview.html  
  https://reactjs.org/docs/static-type-checking.html  
  https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript  
+ https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted  
+ https://dev.to/plazarev/latest-web-development-and-javascript-trends-to-follow-in-2022-118c  
+ 
+ 
 -->
  
