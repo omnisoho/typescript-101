@@ -24,9 +24,36 @@
 * **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported.
 * Many **frameworks** support TypeScript so it is easy to adopt it for your development.
 
-### Some Numbers
+### Some Figures
+<p align="center">
+    <img src="./images/ts-2021-developer-survey-loved-dreaded.png" width="80%">      
+</p>  
 
-*Source 2021 Developer Survey*
+*Source: 2021 Developer Survey*
+
+<p align="center">
+    <img src="./images/ts-state-of-frontend-typescript.png" width="40%">
+    <img src="./images/ts-state-of-frontend-company-type.png" width="40%">
+    <img src="./images/ts-state-of-frontend-typescript-future.png" width="80%">
+</p>  
+
+<p align="center">
+
+|   | 
+| --- |
+| <img src="./images/ts-state-of-frontend-typescript.png" width="80%">  |
+| <img src="./images/ts-state-of-frontend-company-type.png" width="80%"> |
+| <img src="./images/ts-state-of-frontend-typescript-future.png" width="80%">   |  
+
+</p>  
+
+*Source: State of frontend 2022*
+
+<p align="center">
+    <img src="./images/ts-state-of-javascript-flavours.png" width="80%">
+</p> 
+
+*Source: State of JavaScript 2021*
 
 <br/>
 
