@@ -30,15 +30,14 @@
 
 *Source: [2021 Developer Survey](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-language-love-dread)*  
 <img src="./images/ts-2021-developer-survey-loved-dreaded.png">  
-In the "Loved vs Dreaded" poll, TypeScript did not only rank significantly above JavaScript, it also ranked near the top among programming languages.  
+In the "Loved vs Dreaded" poll, TypeScript ranked significantly above JavaScript.  
+In fact, it ranked near the top among programming languages.  
 
 <br/>
 
 *Source: [State of frontend 2022](https://tsh.io/state-of-frontend/)*  
-|   | 
-| --- |
-| <img src="./images/ts-state-of-frontend-typescript.png">  |
-| <img src="./images/ts-state-of-frontend-typescript-future.png">   |  
+<img src="./images/ts-state-of-frontend-typescript.png">
+<img src="./images/ts-state-of-frontend-typescript-future.png">
 
 In the *State of frontend 2022* survey, there is strong opinion expressed in the continued and rising popularity of TypeScript  
 
