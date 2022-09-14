@@ -30,8 +30,9 @@
 
 TypeScript restricts the mixing of data types. Errors would be thrown if the restrictions are violated.  
 
-### Basic types
+<br/>
 
+### Basic types
 Primitive types such as *boolean*, *float*, *integer* and *string* can be declared and type checked at compile time
 
 ```typescript
@@ -45,7 +46,9 @@ salary = "one million";   // number type assigned to string will have error
 name = 888;               // string type assigned to number will have error  
 
 ```
-  
+
+<br/>
+
 ### Array & Tuple
 Likewise, *array* & *tuple* can be type checked
 
@@ -57,7 +60,9 @@ let graduated:[string, number];                   // tuple allows elements of di
 graduated = ["sep", 2008];                        // ok
 graduated = [2007, 2008];                         // this will have error
 ```
-  
+
+<br/>
+
 ### Any type
 There are times where the application deals with data where the type is not available beforehand or only available during runtime  
 The **any** type declaration will allow typechecking to be bypassed  
@@ -68,12 +73,23 @@ let record1 = getStudentRecord("P1001");       // this invocation is ok
 let record2 = getStudentRecord(1001);          // this invocation will have error
 ```
 From the declaration it is clear to see that the function expects a parameter id of type *string* and will return a value of type *any*  
-While this allows opt-out checking grants convenience, type-safety is not enforced.
-  
+While this opt-out checking grants convenience, type-safety is no longer enforced  
+The tradeoff here should be made with discretion and it is recomended to define your own type eventually
+
+<br/>
+
+### Union type
+Union type means it can be one of several types
+The **|** is used to define union type
+```typescript
+let admissionId: string | number;       // union: expect this variable to be of either type string or number
+```
+
+<br/>
+
 ### Other types
 There are other types such as void, undefined, unknown, null, never  
-For a more in-depth understanding of types and subtlties, refer to
-??????????????????????????????????????????????
+An in-depth documentation of the types can be referenced at https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 
 <br/>
   
