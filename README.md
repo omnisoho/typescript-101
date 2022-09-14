@@ -1,3 +1,5 @@
+
+
 # What is TypeScript ? :nerd_face:
 #### TypeScript is  
 
@@ -129,9 +131,9 @@ It can be used together with minimal back-end frameworks like *Express* & *Koa*,
   <img src="./images/ts-backend-digitalocean.png" width="60%">  
 </p>
 
- ###References
- https://angular.io/guide/typescript-configuration
- https://vuejs.org/guide/typescript/overview.html
- https://reactjs.org/docs/static-type-checking.html
- https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
+ ###References  
+ https://angular.io/guide/typescript-configuration  
+ https://vuejs.org/guide/typescript/overview.html  
+ https://reactjs.org/docs/static-type-checking.html  
+ https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript  
  
