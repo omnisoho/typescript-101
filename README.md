@@ -20,9 +20,9 @@
 
 # Why consider TypeScript ?  
 
-* **Static typing** makes large scale applications more robust and less prone to bugs
-* **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported
-* Many **frameworks** support TypeScript so it is easy to adopt it for your development
+* **Static typing** makes large scale applications more robust and less prone to bugs.
+* **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported.
+* Many **frameworks** support TypeScript so it is easy to adopt it for your development.
 
 <br/>
 
@@ -33,7 +33,7 @@ TypeScript restricts the mixing of data types. Errors would be thrown if the res
 <br/>
 
 ### Basic types
-Primitive types such as *boolean*, *float*, *integer* and *string* can be declared and type checked at compile time
+Primitive types such as *boolean*, *float*, *integer* and *string* can be declared and type checked at compile time.
 
 ```typescript
 
@@ -64,23 +64,23 @@ graduated = [2007, 2008];                         // this will have error
 <br/>
 
 ### Any type
-There are times where the application deals with data where the type is not available beforehand or only available during runtime  
-The **any** type declaration will allow typechecking to be bypassed  
+There are times where the application deals with data where the type is not available beforehand or only available during runtime.  
+The **any** type declaration will allow typechecking to be bypassed.    
 
 ```typescript
 function getStudentRecord(id: string): any;    // example of a function declaration
 let record1 = getStudentRecord("P1001");       // this invocation is ok
 let record2 = getStudentRecord(1001);          // this invocation will have error
 ```
-From the declaration it is clear to see that the function expects a parameter id of type *string* and will return a value of type *any*  
-While this opt-out checking grants convenience, type-safety is no longer enforced  
-The tradeoff here should be made with discretion and it is recomended to define your own type eventually
+From the declaration it is clear to see that the function expects a parameter id of type *string* and will return a value of type *any*.  
+While this opt-out checking grants convenience, type-safety is no longer enforced.  
+The tradeoff here should be made with caution and it is recommended to define your own type eventually.  
 
 <br/>
 
 ### Union type
-Union type means it can be one of several types
-The **|** is used to define union type
+Union type means it can be one of several types.
+The **|** is used to define union type.
 ```typescript
 let admissionId: string | number;       // union: expect this variable to be of either type string or number
 ```
@@ -89,13 +89,13 @@ let admissionId: string | number;       // union: expect this variable to be of 
 
 ### Other types
 There are other types such as void, undefined, unknown, null, never  
-An in-depth documentation of the types can be referenced at https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+An in-depth documentation of the types can be referenced at [offical website] (https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
 <br/>
   
 ## OOP Features
-Custom types can be defined to meet your own needs via OOP features like interfaces and classes  
-The variables of these types are also type checked  
+Custom types can be defined to meet your own needs via OOP features like interfaces and classes.  
+The variables of these types are also type checked.  
   
 ### Interface
 ```javascript
@@ -107,7 +107,7 @@ interface Teacher {
 let teacher: Teacher;
 teacher = {name:'Amy', isFullTime: true};   // this is ok even without email
 ```
-The *?* makes the email property optional so the teacher variable can be assigned either with or without it
+The * ? * makes the email property optional so the teacher variable can be assigned either with or without it.
   
 ### Class
   
@@ -134,15 +134,15 @@ let studentName:string = newStudent.fullname;               // public property c
 
 ```
 
-Variables can be instantiated via the constructor with the **new** keyword  
-Class properties can be declared with access modifiers to control accessbility  
+Variables can be instantiated via the constructor with the **new** keyword.   
+Class properties can be declared with access modifiers to control accessbility.  
 
 <br/>
   
 ## Frameworks & TypeScript  
 
-Popular **front-end** web frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript  
-The use of TypeScript is even encouraged  
+Popular **front-end** web frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript.  
+The use of TypeScript is also recommended.  
 <br/>
 
 
@@ -155,7 +155,8 @@ The use of TypeScript is even encouraged
 <br/>
 
 On the **back-end**, TypeScript can be easily setup and configured in a few simple steps, as can be referenced here https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript  
-It can be used together with minimal back-end frameworks like *Express* & *Koa*, or opinionated frameworks like *NestJS* & *loopback*
+It can be used together with minimal back-end frameworks like *Express* & *Koa*, or opinionated frameworks like *NestJS* & *loopback*.  
+
 <p align="center">
   <img src="./images/ts-backend-digitalocean.png" width="60%">  
 </p>
