@@ -2,6 +2,5 @@ title: TypeScript 101
 description: TypeScript in a nutshell
 remote_theme: lewismiddleton/cayman-dark
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have on
 - jemoji
 
