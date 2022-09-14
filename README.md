@@ -1,6 +1,6 @@
 
-
 # What is TypeScript ? :nerd_face:
+
 #### TypeScript is  
 
 <img src="./images/ts-superset-js.png" width="30%">  
@@ -14,6 +14,7 @@
 <br/>
 
 # Why consider TypeScript ? :thinking:
+
 * **Static typing** makes large scale applications more robust and less prone to bugs
 * **OOP concepts** such as Classes, Interfaces, Inheritance etc are supported
 * Many **frameworks** support TypeScript so it is easy to adopt it for your development
@@ -21,19 +22,23 @@
 <br/>
 
 ## Static Typing
+
 TypeScript restricts the mixing of data types. Errors would be thrown if the restrictions are violated.
 
 ### Basic types
+
 Primitive types such as *boolean*, *float*, *integer* and *string* can be declared and type checked at compile time
 
 ```typescript
+
 let isTeacher: boolean = true;
 let salary: number = 90000;
 let name: string = "Zac";
 
 isStudent = false;         // ok
 salary = "one million";   // number type assigned to string will have error
-name = 888;               // string type assigned to number will have error
+name = 888;               // string type assigned to number will have error  
+
 ```
 
 ### Array & Tuple
@@ -85,7 +90,8 @@ The *?* makes the email property optional so the teacher variable can be assigne
 
 ### Class
 
-```javascript
+```typescript
+
 class Student {
     public fullname: string;                                // A public property
     private householdIncome: number;                        // A private property
@@ -103,8 +109,10 @@ class Student {
 let newStudent:Student = new Employee('Danny', 5000);       // instantiate with constructor
 let familyIncome:number = newStudent.getHouseholdIncome();  // invocation ok
 familyIncome = newStudent.householdIncome;                  // private property cannot be accessed directly so there will be error
-let studentName:string = newStudent.fullname;               // public property can be accessed directly so ok
+let studentName:string = newStudent.fullname;               // public property can be accessed directly so ok  
+
 ```
+
 Variables can be instantiated via the constructor with the **new** keyword  
 Class properties can be declared with access modifiers to control accessbility  
 
