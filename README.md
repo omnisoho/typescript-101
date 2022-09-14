@@ -181,7 +181,7 @@ This creates a config file tsconfig.json that is initialized with some default o
 ```
 This is an example of the config file.  
 This file defines the compiler options to transpile typescript to javascript.  
-The full list of options configurable can be referenced at the [typescript website] (https://www.staging-typescript.org/tsconfig)  
+The full list of options configurable can be referenced at the [typescript website](https://www.staging-typescript.org/tsconfig)  
 
 <br/>
 
@@ -207,7 +207,7 @@ This could be .ts file to run a simple server.
 ```linux
 npx tsc
 ```
-Finally typescript has to be compiled to javascript. Then the server can be started.  
+This will compile the typescript in the .ts file to javascript. Then the server code can be run.  
 More information about the setup can be referenced [here.](https://www.typescriptlang.org/download)  
 A more robust setup can be referenced [here.](https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript)  
 
