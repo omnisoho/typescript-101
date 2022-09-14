@@ -1,15 +1,20 @@
 
-# What is TypeScript ? :nerd_face:  
+# What is TypeScript ? :monocle_face:  
 
 #### TypeScript is  
 
-<img src="./images/ts-superset-js.png" width="30%">  
+<p align="center">
+    <img src="./images/ts-superset-js.png" width="60%">  
+</p>
 
 * an object-oriented programming language developed and maintained by Microsoft
 * a superset of JavaScript and contains all of its elements
 * built on javascript even though it uses the .ts extenson instead of the .js extension
-* easily compiled to plain javascript via a TypeScript compiler
-<img src="./images/ts-compile-to-js.png" width="60%">  
+* easily compiled to plain javascript via a TypeScript compiler  
+
+<p align="center">
+    <img src="./images/ts-compile-to-js.png">  
+</p>  
 
 <br/>
 
