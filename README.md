@@ -25,11 +25,14 @@
 * Many **frameworks** support TypeScript so it is easy to adopt it for your development.
 
 ### Some Figures
-<p align="center">
-    <img src="./images/ts-2021-developer-survey-loved-dreaded.png" width="80%">      
-</p>  
+
+<br/>
+
+<img src="./images/ts-2021-developer-survey-loved-dreaded.png" width="80%">      
 
 *Source: 2021 Developer Survey*
+
+In the loved versus dreaded poll, TypeScript did not only rank significantly above JavaScript, it also ranked near the top among programming languages.
 
 <p align="center">
     <img src="./images/ts-state-of-frontend-typescript.png" width="40%">
