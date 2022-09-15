@@ -215,6 +215,8 @@ The full list of options configurable can be referenced at the [typescript websi
 
 ## TypeScript & Frameworks
 
+<br/>
+
 ```typescript
 import express from 'express';
 const app = express();
