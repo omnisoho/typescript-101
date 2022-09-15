@@ -32,7 +32,7 @@
 
 *Source: [2021 Developer Survey](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-language-love-dread)*  
 <img src="./images/ts-2021-developer-survey-loved-dreaded.png">  
-In the "Loved vs Dreaded" poll, TypeScript ranked **significantly above** JavaScript.  
+In the 2021 Developer Survey by Stack Overflow, TypeScript ranked **significantly above** JavaScript in the "Loved vs Dreaded" poll.  
 In fact, it ranked near the **top** among programming languages.  
 
 <br/>
@@ -50,6 +50,8 @@ In the *State of frontend 2022* survey, there is strong opinion expressed in the
 In the *State of JavaScript 2021* survey, compared to other languages that compile to JavaScript, TypeScript is polled as the **clear choice**.
 
 <br/>
+
+# How TypeScript does it?
 
 ## Static Typing
 
@@ -132,6 +134,7 @@ interface Teacher {
 let teacher: Teacher;
 teacher = {name:'Amy', isFullTime: true};   // this is ok even without email
 ```
+The Teacher interface is a custom defined type.
 The **?** makes the email property optional so the teacher variable can be assigned either with or without it.
 
 <br/>
@@ -164,11 +167,11 @@ let studentName:string = newStudent.fullname;               // public property c
 Variables can be instantiated via the constructor with the **new** keyword.   
 Class properties can be declared with access modifiers to control accessbility.  
 
-<br/>
-  
-## Frameworks & TypeScript  
+More details of TypeScript's OOP features can be referenced [here](https://www.typescriptlang.org/docs/handbook/2/classes.html)  
 
-### Basic Setup
+<br/>
+
+## Basic Setup
 
 <br/>
 
@@ -210,7 +213,7 @@ The full list of options configurable can be referenced at the [typescript websi
 
 <br/>
 
-### With Frameworks
+## TypeScript & Frameworks
 
 ```typescript
 import express from 'express';
