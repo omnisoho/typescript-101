@@ -53,11 +53,11 @@ In the *State of JavaScript 2021* survey, compared to other languages that compi
 
 # How TypeScript does it?
 
+<br/>
+
 ## Static Typing
 
 TypeScript restricts the mixing of data types. Errors would be thrown if the restrictions are violated.  
-
-<br/>
 
 ### Basic types
 Primitive types such as *boolean*, *float*, *integer* and *string* can be declared and type checked at compile time.
