@@ -9,7 +9,7 @@
 
 * an object-oriented programming language developed and maintained by Microsoft
 * a superset of JavaScript and contains all of its elements
-* built on javascript even though it uses the .ts extenson instead of the .js extension
+* built on javascript even though it uses the .ts extension instead of the .js extension
 * easily compiled to plain javascript via a TypeScript compiler  
 
 <p align="center">
@@ -230,7 +230,7 @@ app.listen(port, () => {
   return console.log(`Server listening at http://localhost:${port}`);
 });
 ```
-This could be .ts file to run a simple server.  
+This could be a .ts file to run a simple server.  
 
 <br/>
 
@@ -246,7 +246,7 @@ As seen above, typescript can be used together with minimal back-end frameworks 
 <br/>
 
 Popular **front-end** frameworks such as *ReactJS*, *AngularJS* & *VueJS* can already be programmed using TypeScript.  
-The use of TypeScript is also recommended.  
+The use of TypeScript is also recommended for large scale development.  
 <br/>
 
 
