@@ -68,7 +68,7 @@ let isTeacher: boolean = true;
 let salary: number = 90000;
 let name: string = "Zac";
 
-isStudent = false;         // ok
+isTeacher = false;         // ok
 salary = "one million";   // number type assigned to string will have error
 name = 888;               // string type assigned to number will have error  
 
